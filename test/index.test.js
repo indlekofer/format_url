@@ -32,4 +32,10 @@ describe('format_url', () => {
       "http://localhost:8080/?test=1&test2=2#asdasd"
     );
   });
+  it('relative url', () => {
+    assert.equal(
+      formatUrl("/index.json", {test: 1, test2: 2}, 'asdasd'),
+      "/index.json?test=1&test2=2#asdasd"
+    );
+  });
 });
