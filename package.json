@@ -1,6 +1,6 @@
 {
   "name": "@indlekofer/format_url",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "create a url with get parameters",
   "author": "Daniel Indlekofer <daniel@indlekofer.org>",
   "keywords": [],
@@ -19,18 +19,18 @@
     "lint:fix": "eslint ./src/ --fix"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.0",
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4",
-    "@babel/register": "^7.4.4",
-    "eslint": "^6.0.1",
-    "mocha": "^6.1.4",
-    "nyc": "^14.1.1"
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/register": "^7.12.13",
+    "eslint": "^7.19.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0"
   },
   "files": [
     "cjs/"
   ],
   "dependencies": {
-    "@indlekofer/format_query": "^1.0.1"
+    "@indlekofer/format_query": "^1.0.2"
   }
 }
